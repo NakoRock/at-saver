@@ -14,8 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "at-saver.helloWorld",
-        "title": "Hello World"
+        "command": "at-saver",
+        "title": "start"
+      },
+      {
+        "command": "at-saver.stop",
+        "title": "Stop at-saver"
       }
     ]
   },
